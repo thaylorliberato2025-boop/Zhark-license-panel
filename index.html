@@ -77,7 +77,7 @@
     const SUPABASE_URL = "https://rrgifdolqajqtagfzjtm.supabase.co";
     const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_vyY3rOhgbEYz_qULGnxYOA_szYDy6DJ";
     const FUNCTION_URL = SUPABASE_URL + "/functions/v1/smooth-endpoint";
-    window.zharkSupabase = window.Supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+    window.zharkSupabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
     const $ = (id) => document.getElementById(id);
     let currentKey = "";
 
